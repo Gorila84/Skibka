@@ -1,0 +1,17 @@
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\gastrosalon.exe
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\gastrosalon.deps.json
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\gastrosalon.runtimeconfig.json
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\gastrosalon.dll
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\gastrosalon.pdb
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.AssemblyReference.cache
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.AssemblyInfoInputs.cache
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.AssemblyInfo.cs
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.CoreCompileInputs.cache
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.dll
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\refint\gastrosalon.dll
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.pdb
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.genruntimeconfig.cache
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\ref\gastrosalon.dll
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\FileHelpers.dll
+C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.CopyComplete
