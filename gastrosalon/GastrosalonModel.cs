@@ -1,4 +1,4 @@
-﻿using FileHelpers;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace gastrosalon
 {
-    [DelimitedRecord(",")]
+   // [DelimitedRecord(",")]
     public class GastrosalonModel
     {
        

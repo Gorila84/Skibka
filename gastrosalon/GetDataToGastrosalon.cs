@@ -1,4 +1,4 @@
-﻿using FileHelpers;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 using static System.Net.Mime.MediaTypeNames;
+
 
 namespace gastrosalon
 {
@@ -133,13 +134,17 @@ namespace gastrosalon
     
         public void DeserializeXmlFile()
         {
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<GastroProduct>));
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Offers));
             StreamReader sr = new StreamReader("export.xml");
-            List<GastroProduct> products = (List<GastroProduct>)xmlSerializer.Deserialize(sr);
-            foreach (GastroProduct product in products)
+            string xml = File.ReadAllText("export.xml");
+
+            using (TextReader reader = new StringReader(xml))
             {
-                Console.WriteLine("Nazwa: " + product.Name);
+                var products = (Offers)xmlSerializer.Deserialize(reader);
             }
+
+
+
 
             //XmlRootAttribute xRoot = new XmlRootAttribute();
             //xRoot.ElementName = "offers";
