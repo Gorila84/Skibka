@@ -1,45 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "FileHelpers/3.5.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/FileHelpers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/FileHelpers.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "FileHelpers/3.5.2": {
-      "sha512": "Z0jwjF4AmDBzRWfHFMdrcuBgmoQ2ChLaTmhRjnmReoUPUkT/+5StzWCB0N0RpslYeXiSyvcntcZNLtY58todFw==",
-      "type": "package",
-      "path": "filehelpers/3.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "filehelpers.3.5.2.nupkg.sha512",
-        "filehelpers.nuspec",
-        "lib/net40/FileHelpers.dll",
-        "lib/net40/FileHelpers.xml",
-        "lib/net45/FileHelpers.dll",
-        "lib/net45/FileHelpers.xml",
-        "lib/netstandard2.0/FileHelpers.dll",
-        "lib/netstandard2.0/FileHelpers.xml"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "FileHelpers >= 3.5.2"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Dell\\.nuget\\packages\\": {},
@@ -84,12 +50,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "FileHelpers": {
-            "target": "Package",
-            "version": "[3.5.2, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

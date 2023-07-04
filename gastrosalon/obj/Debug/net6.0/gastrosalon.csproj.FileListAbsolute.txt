@@ -13,5 +13,3 @@ C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\refint\gas
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.pdb
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.genruntimeconfig.cache
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\ref\gastrosalon.dll
-C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\bin\Debug\net6.0\FileHelpers.dll
-C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.CopyComplete

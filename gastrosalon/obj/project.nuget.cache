@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5XQfJ02QngQ7Lk6Eor2gk1fdQl/UJCZsm8T0rlhAQXnD2LQ0APh7ucnXWglkgDvtzpiJNnKR1BnMD4+fK/dJfw==",
+  "dgSpecHash": "nQKA6rxc0A3pkETzSSMJNsInvNivEU+0J6RFPHrrxKYZOFhCaHN/sWzWrcYyf/aIpm5JX7XE6CHzMxOE+4OuxQ==",
   "success": true,
   "projectFilePath": "C:\\Projekty\\.Net\\Gastrosalon\\gastrosalon\\gastrosalon\\gastrosalon.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dell\\.nuget\\packages\\filehelpers\\3.5.2\\filehelpers.3.5.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
