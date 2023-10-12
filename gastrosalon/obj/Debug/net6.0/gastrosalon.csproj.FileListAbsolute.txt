@@ -13,3 +13,17 @@ C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\refint\gas
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.pdb
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\gastrosalon.genruntimeconfig.cache
 C:\Projekty\.Net\Gastrosalon\gastrosalon\gastrosalon\obj\Debug\net6.0\ref\gastrosalon.dll
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.GeneratedMSBuildEditorConfig.editorconfig
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.AssemblyInfoInputs.cache
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.AssemblyInfo.cs
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.CoreCompileInputs.cache
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.dll
+E:\Skibka\gastrosalon\obj\Debug\net6.0\refint\gastrosalon.dll
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.pdb
+E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.exe
+E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.deps.json
+E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.runtimeconfig.json
+E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.dll
+E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.pdb
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.genruntimeconfig.cache
+E:\Skibka\gastrosalon\obj\Debug\net6.0\ref\gastrosalon.dll

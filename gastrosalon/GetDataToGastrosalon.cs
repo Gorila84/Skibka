@@ -131,7 +131,7 @@ namespace gastrosalon
         //        }
         //    }
         //}
-    
+
         public void DeserializeXmlFile()
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Offers));
@@ -156,8 +156,23 @@ namespace gastrosalon
             //}
 
         }
+
+        public void DeserializeRMXmlFile()
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Products));
+            StreamReader sr = new StreamReader("RM GASTRO XML products.xml");
+            string xml = File.ReadAllText("RM GASTRO XML products.xml");
+
+            using (TextReader reader = new StringReader(xml))
+            {
+                var products = (Products)xmlSerializer.Deserialize(reader);
+            }
+
+
+
+        }
+
+
+
     }
-
-
-    
 }
