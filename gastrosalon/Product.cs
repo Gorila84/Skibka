@@ -35,8 +35,40 @@ namespace gastrosalon
         [XmlElement("instruction")]
         public string Instruction { get; set; }
 
-        [XmlElement("property")]
-        public Properties[] properties { get; set; }    
+        //[XmlAttribute("Wymiary_(mm)")]
+        //public string Wymiary { get; set; }
+
+        //[XmlAttribute("Moc_(kW)")]
+        //public string Moc { get; set; }
+
+        //[XmlAttribute("Waga_(kg)")]
+        //public string Waga { get; set; }
+
+        //[XmlAttribute("Zastosowanie")]
+        //public string Zastosowanie { get; set; }
+
+        //[XmlAttribute("Pojemność_(szt#)")]
+        //public string Pojemność { get; set; }
+
+        //[XmlAttribute("Ø_szklanki_(cm)")]
+        //public string WysokośćSzklanki { get; set; }
+
+        [XmlElement(ElementName = "property")]
+        public List<Property> Property { get; set; }
+
+
+
+
 
     }
+
+    [XmlRoot(ElementName = "property")]
+    public class Property
+    {
+        [XmlAttribute(AttributeName = "name")]
+        public string Name { get; set; }
+        [XmlText]
+        public string Text { get; set; }
+    }
+
 }

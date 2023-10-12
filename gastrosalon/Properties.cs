@@ -29,6 +29,6 @@ namespace gastrosalon
         public string Text { get; set; }
     }
 
-    public class Property : Food { }
+
   
 }
