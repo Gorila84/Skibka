@@ -7,6 +7,6 @@ using System.Xml.Serialization;
 Console.WriteLine("Hello, World!");
 
 GetDataToGastrosalon _getData = new GetDataToGastrosalon();
-_getData.DeserializeRMXmlFile();
+_getData.SerializeToCsv("RM GASTRO XML products.xml");
 //_getData.GetDataFromXmlToGastrosalon();
 //_getData.ExportCsv<GastrosalonModel>(_getData.GetDataFromXmlToGastrosalon(), "gastro");

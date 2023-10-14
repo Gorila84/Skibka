@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
@@ -94,68 +95,44 @@ namespace gastrosalon
 
         //    }
 
-        //    public void ExportCsv<T>(List<T> genericList, string fileName)
-        //    {
-        //        var sb = new StringBuilder();
-        //        var basePath = AppDomain.CurrentDomain.BaseDirectory;
-        //        var finalPath = Path.Combine(basePath, fileName + ".csv");
-        //        var header = "";
-        //        var info = typeof(T).GetProperties();
-        //        if (!File.Exists(finalPath))
-        //        {
-        //            var file = File.Create(finalPath);
-        //            file.Close();
-        //            foreach (var prop in typeof(T).GetProperties())
-        //            {
-        //                header += prop.Name + "| ";
-        //            }
-        //            header = header.Substring(0, header.Length - 2);
-        //            sb.AppendLine(header);
-        //            TextWriter sw = new StreamWriter(finalPath, true);
-        //            sw.Write(sb.ToString());
-        //            sw.Close();
-        //        }
-        //        foreach (var obj in genericList)
-        //        {
-        //            sb = new StringBuilder();
-        //            var line = "";
-        //            foreach (var prop in info)
-        //            {
-        //                line += prop.GetValue(obj, null) + "| ";
-        //            }
-        //            line = line.Substring(0, line.Length - 2);
-        //            sb.AppendLine(line);
-        //            TextWriter sw = new StreamWriter(finalPath, true);
-        //            sw.Write(sb.ToString());
-        //            sw.Close();
-        //        }
-        //    }
-        //}
-
-        public void DeserializeXmlFile()
+        public void ExportCsv<T>(List<T> genericList, string fileName)
         {
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Offers));
-            StreamReader sr = new StreamReader("export.xml");
-            string xml = File.ReadAllText("export.xml");
-
-            using (TextReader reader = new StringReader(xml))
+            var sb = new StringBuilder();
+            var basePath = AppDomain.CurrentDomain.BaseDirectory;
+            var finalPath = Path.Combine(basePath, fileName + ".csv");
+            var header = "";
+            var info = typeof(T).GetProperties();
+            if (!File.Exists(finalPath))
             {
-                var products = (Offers)xmlSerializer.Deserialize(reader);
+                var file = File.Create(finalPath);
+                file.Close();
+                foreach (var prop in typeof(T).GetProperties())
+                {
+                    header += prop.Name + "| ";
+                }
+                header = header.Substring(0, header.Length - 2);
+                sb.AppendLine(header);
+                TextWriter sw = new StreamWriter(finalPath, true);
+                sw.Write(sb.ToString());
+                sw.Close();
             }
-
-
-
-
-            //XmlRootAttribute xRoot = new XmlRootAttribute();
-            //xRoot.ElementName = "offers";
-            //xRoot.IsNullable = true;
-            //using (StreamReader reader = new StreamReader("export.xml"))
-            //{
-            //    List<GastroProduct> result = (List<GastroProduct>)(new XmlSerializer(typeof(List<GastroProduct>), xRoot)).Deserialize(reader);
-            //    int numOfPersons = result.Count;
-            //}
-
+            foreach (var obj in genericList)
+            {
+                sb = new StringBuilder();
+                var line = "";
+                foreach (var prop in info)
+                {
+                    line += prop.GetValue(obj, null) + "| ";
+                }
+                line = line.Substring(0, line.Length - 2);
+                sb.AppendLine(line);
+                TextWriter sw = new StreamWriter(finalPath, true);
+                sw.Write(sb.ToString());
+                sw.Close();
+            }
         }
+    
+
 
         public void DeserializeRMXmlFile()
         {
@@ -166,13 +143,166 @@ namespace gastrosalon
             using (TextReader reader = new StringReader(xml))
             {
                 var products = (Products)xmlSerializer.Deserialize(reader);
+               
             }
 
-
+            
 
         }
 
 
+        public void SerializeToCsv(string fileName)
+        {
+            CsvColumns columns = new CsvColumns();
+            using (FileStream fs = new FileStream(fileName, FileMode.Open))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Products));
+                var data = (Products)serializer.Deserialize(fs);
+                
+                List<CsvColumns> list = new List<CsvColumns>();
 
+                string waga = "";
+                string zastosowanie = "";
+
+                foreach(var item in data.ProductList)
+                {
+                    foreach (var property in item.Property)
+                    {
+                        if (property.Name == "Waga (kg)" && property.Text is not null)
+                        {
+                            waga = property.Text.ToString(); 
+                        }
+                        else
+                        {
+                            waga = "";
+                        }
+
+                        if(property.Name == "Zastosowanie" && property.Text is not null)
+                        {
+                            zastosowanie = property.Text.ToString();
+                        }
+                        else
+                        {
+                            zastosowanie = "";
+                        }
+
+                    }
+
+                    CsvColumns csvColumns = new CsvColumns()
+                    {
+                        Symbol = item.Itemcode.ToString(),
+                        EAN = item.Itemcode.ToString(),
+                        Nazwa = item.Name.ToString(),
+                        Opis = item.Description.ToString(),
+                        Producent = "RM Gastro",
+                        Kategoria = item.Group.ToString(),
+                        Kategoria1 = "",
+                        Kategoria2 = "",
+                        Kategoria3 = "",
+                        Zdjecie = item.Image.ToString(),
+                        ZdjęciDodatkowe = "",
+                        ZdjęcieDodatkowe = "",
+                        CenaAnetto = item.Price.ToString(),
+                        CenaB = "",
+                        CenaC = "",
+                        CenaD = "",
+                        CenaZ = "",
+                        Stan = "",
+                        Widoczność = "Y",
+                        Koszyk = "",
+                        Wielosztuki = "",
+                        Załącznik = "",
+                        JednostkaMiary = "",
+                        Waga = waga,
+                        f_wysokocs = "",
+                        f_dlugosc = "",
+                        f_glebokosc = "",
+                        f_szerokosc = "",
+                        f_material = "",
+                        f_filtr1 = zastosowanie,
+                        f_filtr2 = "",
+                        f_filtr3 = "",
+                        vat = "",
+                        tagi = ""
+
+
+                    };
+                    list.Add(csvColumns);
+                    
+                   
+                   
+                }
+
+                list = list.ToList();
+
+                var allLines = (from product in list
+                                select new object[]
+                                {
+                                    product.Symbol,
+                                    product.EAN,
+                                    product.Nazwa,
+                                    product.Opis,
+                                    product.Producent,
+                                    product.Kategoria,
+                                    product.Kategoria1,
+                                    product.Kategoria2,
+                                    product.Kategoria3,
+                                    product.Zdjecie,
+                                    product.ZdjęciDodatkowe,
+                                    product.ZdjęcieDodatkowe,
+                                    product.CenaAnetto,
+                                    product.CenaB,
+                                    product.CenaC,
+                                    product.CenaD,
+                                    product.CenaZ,
+                                    product.Stan,
+                                    product.Widoczność,
+                                    product.Koszyk,
+                                    product.Wielosztuki,
+                                    product.Załącznik,
+                                    product.JednostkaMiary,
+                                    product.Waga,
+                                    product.f_wysokocs,
+                                    product.f_dlugosc,
+                                    product.f_glebokosc,
+                                    product.f_szerokosc,
+                                    product.f_material,
+                                    product.f_filtr1,
+                                    product.f_filtr2,
+                                    product.f_filtr3,
+                                    product.vat,
+                                    product.tagi
+                                }).ToList();
+                string finalPath = @"E:\RMGASTRO.csv";
+                string header = "";
+                ExportCsv<CsvColumns>(list, finalPath);
+
+                //var csv = new StringBuilder();
+                //if (!File.Exists(finalPath))
+                //{
+                //    var file = File.Create(finalPath);
+
+                //    file.Close();
+                //    foreach (var prop in typeof(CsvColumns).GetProperties())
+                //    {
+                //        header += prop.Name + "| ";
+                //    }
+                //    header = header.Substring(0, header.Length - 2);
+                //    csv.AppendLine(header);
+                //    TextWriter sw = new StreamWriter(finalPath, true);
+                //    sw.Write(csv.ToString());
+                //    sw.Close();
+                //}
+                
+                //allLines.ForEach(line =>
+                //{
+                //    csv.AppendLine(string.Join("|", line));
+                //});
+
+                //File.WriteAllText(finalPath, csv.ToString());
+
+
+            }
+        }
     }
 }

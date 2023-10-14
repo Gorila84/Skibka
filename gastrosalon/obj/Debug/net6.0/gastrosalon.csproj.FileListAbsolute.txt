@@ -27,3 +27,6 @@ E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.dll
 E:\Skibka\gastrosalon\bin\Debug\net6.0\gastrosalon.pdb
 E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.genruntimeconfig.cache
 E:\Skibka\gastrosalon\obj\Debug\net6.0\ref\gastrosalon.dll
+E:\Skibka\gastrosalon\bin\Debug\net6.0\AutoMapper.dll
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.AssemblyReference.cache
+E:\Skibka\gastrosalon\obj\Debug\net6.0\gastrosalon.csproj.CopyComplete

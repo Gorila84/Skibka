@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8wml8dwEKLNB6Lo+54zmZOcy6ojmll1+0bKelEInUypi1QKrNp04xcbmBDjvf99OPPlORth/w7/GnEsMVe1Avw==",
+  "dgSpecHash": "E9UqtYH4l9kYZ6pPYoeXkDhn35yPDUqqZJzVG+9/W1+U4lfTLIhtgzE9Tv1Cnpz8NVb0byAuIThUMfYlPmLLuQ==",
   "success": true,
   "projectFilePath": "E:\\Skibka\\gastrosalon\\gastrosalon.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\macie\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
