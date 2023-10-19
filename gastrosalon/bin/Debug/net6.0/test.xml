@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+    <product>
+        <code>105343</code>
+        <name>
+            <value>
+                <attr lang="de">Hockerkocher E 1K350</attr>
+                <attr lang="en">Stock-pot stove E 1K350</attr>
+                <attr lang="fr">Réchaud sur pieds E 1K350</attr>
+                <attr lang="es">Estufa de banqueta E 1K350</attr>
+                <attr lang="nl">Wokbrander E 1K350</attr>
+                <attr lang="pl">Taboret grzewczy E 1K350</attr>
+                <attr lang="ru">Плита-табурет E 1K350</attr>
+                <attr lang="uk">Плита-табурет E 1K350</attr>
+                <attr lang="el">Επιδαπέδια εστία E 1K350</attr>
+                <attr lang="sv">Kokpall E 1K350</attr>
+            </value>
+        </name>
+        <productType>HAWA</productType>
+        <gtin>4015613126036</gtin>
+        <netWidth>500.0</netWidth>
+        <netDepth>500.0</netDepth>
+        <netHeight>520.0</netHeight>
+        <netWeight>16.4</netWeight>
+        <grossWeight>20.2</grossWeight>
+        <weightUnit>KGM</weightUnit>
+        <volume>0.221</volume>
+        <volumeUnit>MTQ</volumeUnit>
+        <listPrice>1598.0</listPrice>
+        <currency>Euro</currency>
+        <discountGroup>01</discountGroup>
+        <guarantee>VG</guarantee>
+        <servicing>SVO</servicing>
+        <customsTarifNumber>84198180</customsTarifNumber>
+        <packaging>Stück</packaging>
+        <datasheet>
+            <value>
+                <attr lang="de">http://www.bartscher.com/de/permalink/datasheet/105343/de</attr>
+                <attr lang="en">http://www.bartscher.com/de/permalink/datasheet/105343/en</attr>
+                <attr lang="fr">http://www.bartscher.com/de/permalink/datasheet/105343/fr</attr>
+                <attr lang="es">http://www.bartscher.com/de/permalink/datasheet/105343/es</attr>
+                <attr lang="nl">http://www.bartscher.com/de/permalink/datasheet/105343/nl</attr>
+                <attr lang="pl">http://www.bartscher.com/de/permalink/datasheet/105343/pl</attr>
+                <attr lang="ru">http://www.bartscher.com/de/permalink/datasheet/105343/ru</attr>
+                <attr lang="uk">http://www.bartscher.com/de/permalink/datasheet/105343/uk</attr>
+                <attr lang="el">http://www.bartscher.com/de/permalink/datasheet/105343/el</attr>
+                <attr lang="sv">http://www.bartscher.com/de/permalink/datasheet/105343/sv</attr>
+            </value>
+        </datasheet>
+        <explodedview>
+            <value>
+                <attr lang="de">http://www.bartscher.com/de/permalink/explodedview/105343/de</attr>
+                <attr lang="en">http://www.bartscher.com/de/permalink/explodedview/105343/en</attr>
+                <attr lang="fr">http://www.bartscher.com/de/permalink/explodedview/105343/fr</attr>
+                <attr lang="es">http://www.bartscher.com/de/permalink/explodedview/105343/es</attr>
+                <attr lang="nl">http://www.bartscher.com/de/permalink/explodedview/105343/nl</attr>
+                <attr lang="pl">http://www.bartscher.com/de/permalink/explodedview/105343/pl</attr>
+                <attr lang="ru">http://www.bartscher.com/de/permalink/explodedview/105343/ru</attr>
+                <attr lang="uk">http://www.bartscher.com/de/permalink/explodedview/105343/uk</attr>
+                <attr lang="el">http://www.bartscher.com/de/permalink/explodedview/105343/el</attr>
+                <attr lang="sv">http://www.bartscher.com/de/permalink/explodedview/105343/sv</attr>
+            </value>
+        </explodedview>
+        <wiringdiagram>
+            <value>
+                <attr lang="de">http://www.bartscher.com/de/permalink/wiringdiagram/105343/de</attr>
+                <attr lang="en">http://www.bartscher.com/de/permalink/wiringdiagram/105343/en</attr>
+                <attr lang="fr">http://www.bartscher.com/de/permalink/wiringdiagram/105343/fr</attr>
+                <attr lang="es">http://www.bartscher.com/de/permalink/wiringdiagram/105343/es</attr>
+                <attr lang="nl">http://www.bartscher.com/de/permalink/wiringdiagram/105343/nl</attr>
+                <attr lang="pl">http://www.bartscher.com/de/permalink/wiringdiagram/105343/pl</attr>
+                <attr lang="ru">http://www.bartscher.com/de/permalink/wiringdiagram/105343/ru</attr>
+                <attr lang="uk">http://www.bartscher.com/de/permalink/wiringdiagram/105343/uk</attr>
+                <attr lang="el">http://www.bartscher.com/de/permalink/wiringdiagram/105343/el</attr>
+                <attr lang="sv">http://www.bartscher.com/de/permalink/wiringdiagram/105343/sv</attr>
+            </value>
+        </wiringdiagram>
+        <operatinginstructions>
+            <value>
+                <attr lang="de">http://www.bartscher.com/de/permalink/operatinginstructions/105343/de</attr>
+                <attr lang="pl">http://www.bartscher.com/de/permalink/operatinginstructions/105343/pl</attr>
+                <attr lang="ru">http://www.bartscher.com/de/permalink/operatinginstructions/105343/ru</attr>
+                <attr lang="uk">http://www.bartscher.com/de/permalink/operatinginstructions/105343/uk</attr>
+            </value>
+        </operatinginstructions>
+        <accessoryProducts>173078;173080</accessoryProducts>
+        <similarProducts>105325</similarProducts>
+        <category1>
+            <value>
+                <attr lang="de">Gartechnik - Hockerkocher</attr>
+                <attr lang="en">Cooking technology - Stock-pot stove</attr>
+                <attr lang="fr">Systèmes de cuisson - Réchauds sur pied</attr>
+                <attr lang="es">Tecnología de cocción - Fogones</attr>
+                <attr lang="nl">Gaartechniek - Hokkers</attr>
+                <attr lang="pl">Technika gotowania - Taborety gazowe i elektryczne</attr>
+                <attr lang="ru">Техника для готовки - Плиты-табуреты</attr>
+                <attr lang="uk">Техніка для приготування - Плити-табурети</attr>
+                <attr lang="el">Τεχνολογία μαγειρέματος - Επιδαπέδιες εστίες</attr>
+                <attr lang="sv">Stekteknik - Kokpallar</attr>
+            </value>
+        </category1>
+        <category2>
+            <value>
+                <attr lang="de">GARTECHNIK - Hockerkocher</attr>
+                <attr lang="en">COOKING TECHNOLOGY - Stock-pot stoves</attr>
+                <attr lang="fr">TECHNIQUE DE CUISSON - Réchauds sur pieds</attr>
+                <attr lang="es">COCCIÓN - Fogones</attr>
+                <attr lang="nl">GAARTECHNIEK - Hokkers</attr>
+                <attr lang="pl">TECHNIKA GOTOWANIA - Taborety grzewcze</attr>
+                <attr lang="ru">ТЕРМООБРАБОТКА - Плиты-табуреты</attr>
+                <attr lang="uk">ТЕРМООБРОБКА - Плити-табурети</attr>
+                <attr lang="el">ΤΕΧΝΟΛΟΓΊΑ ΜΑΓΕΙΡΈΜΑΤΟΣ - Επιδαπέδιες εστίες</attr>
+                <attr lang="sv">MATLAGNINGSTEKNIK - Kokpallar</attr>
+            </value>
+        </category2>
+        <Attribut1>
+            <value>
+                <attr lang="de">Betriebsart;Elektro </attr>
+                <attr lang="en">Operating mode;Electro </attr>
+                <attr lang="fr">Mode de fonctionnement;Électrique </attr>
+                <attr lang="es">Modo de funcionamiento;Eléctrico </attr>
+                <attr lang="nl">Werkingsmodus;Elektro </attr>
+                <attr lang="pl">Tryb pracy;Elektr. </attr>
+                <attr lang="ru">Режим работы;Электрический </attr>
+                <attr lang="uk">Режим експлуатації;Електро </attr>
+                <attr lang="el">Είδος λειτουργίας;Ηλεκτρικό </attr>
+                <attr lang="sv">Driftssätt;El </attr>
+            </value>
+        </Attribut1>
+        <Attribut2>
+            <value>
+                <attr lang="de">Eigenschaften;- </attr>
+                <attr lang="en">Properties;- </attr>
+                <attr lang="fr">Propriétés;- </attr>
+                <attr lang="es">Características;- </attr>
+                <attr lang="nl">Eigenschappen;- </attr>
+                <attr lang="pl">Właściwości;- </attr>
+                <attr lang="ru">Свойства;- </attr>
+                <attr lang="uk">Властивості;- </attr>
+                <attr lang="el">Χαρακτηριστικά;- </attr>
+                <attr lang="sv">Egenskaper;- </attr>
+            </value>
+        </Attribut2>
+        <Attribut3>
+            <value>
+                <attr lang="de">Spannung;380-400 V </attr>
+                <attr lang="en">Voltage;380-400 V </attr>
+                <attr lang="fr">Tension;380-400 V </attr>
+                <attr lang="es">Voltaje;380-400 V </attr>
+                <attr lang="nl">Spanning;380-400 V </attr>
+                <attr lang="pl">Napięcie;380-400 V </attr>
+                <attr lang="ru">Напряжение;380-400 В </attr>
+                <attr lang="uk">Напруга;380-400 В </attr>
+                <attr lang="el">Τάση;380-400 V </attr>
+                <attr lang="sv">Spänning;380-400 V </attr>
+            </value>
+        </Attribut3>
+        <Attribut4>
+            <value>
+                <attr lang="de">Kontrollleuchte;Ja </attr>
+                <attr lang="en">Control lamp;yes </attr>
+                <attr lang="fr">Témoin lumineux de contrôle;Oui </attr>
+                <attr lang="es">Luz indicadora;Sí </attr>
+                <attr lang="nl">Controlelampje;Ja </attr>
+                <attr lang="pl">Lampka kontrolna;Tak </attr>
+                <attr lang="ru">Контрольная лампа;Да </attr>
+                <attr lang="uk">Контрольна лампочка;Так </attr>
+                <attr lang="el">Ενδεικτική λυχνία;Ναι </attr>
+                <attr lang="sv">Kontrollampa;Ja </attr>
+            </value>
+        </Attribut4>
+        <Attribut5>
+            <value>
+                <attr lang="de">Anschlusswert ;3,5 kW</attr>
+                <attr lang="en">Power;3.5 kW</attr>
+                <attr lang="fr">Puissance;3.5 kW</attr>
+                <attr lang="es">Potencia nominal;3.5 kW</attr>
+                <attr lang="nl">Aansluitwaarde;3.5 kW</attr>
+                <attr lang="pl">Moc przyłączeniowa;3.5 kW</attr>
+                <attr lang="ru">Значение подключения;3.5 кВт</attr>
+                <attr lang="uk">Потужність;3.5 кВт</attr>
+                <attr lang="el">Στοιχεία σύνδεσης;3.5 kW</attr>
+                <attr lang="sv">Anslutningsvärde;3.5 kW</attr>
+            </value>
+        </Attribut5>
+        <Attribut6>
+            <value>
+                <attr lang="de">Frequenz;50/60 Hz </attr>
+                <attr lang="en">Frequency;50/60 Hz </attr>
+                <attr lang="fr">Fréquence;50/60 Hz </attr>
+                <attr lang="es">Frecuencia;50/60 Hz </attr>
+                <attr lang="nl">Frequentie;50/60 Hz </attr>
+                <attr lang="pl">Częstotliwość;50/60 Hz </attr>
+                <attr lang="ru">Частота;50/60 Гц </attr>
+                <attr lang="uk">Частота;50/60 Гц </attr>
+                <attr lang="el">Συχνότητα;50/60 Hz </attr>
+                <attr lang="sv">Frekvens;50/60 Hz </attr>
+            </value>
+        </Attribut6>
+        <Attribut7>
+            <value>
+                <attr lang="de">Material;CNS 18/10 </attr>
+                <attr lang="en">Material;CNS 18/10 </attr>
+                <attr lang="fr">Matériau;CNS 18/10 </attr>
+                <attr lang="es">Material;Acero inoxidable 18/10 </attr>
+                <attr lang="nl">Materiaal;CNS 18/10 </attr>
+                <attr lang="pl">Materiał;CNS 18/10 </attr>
+                <attr lang="ru">Материал;CNS 18/10 </attr>
+                <attr lang="uk">Матеріал;CNS 18/10 </attr>
+                <attr lang="el">Υλικό;CNS 18/10 </attr>
+                <attr lang="sv">Material;CNS 18/10 </attr>
+            </value>
+        </Attribut7>
+        <Attribut8>
+            <value>
+                <attr lang="de">Durchmesser Kochstelle;300 mm</attr>
+                <attr lang="en">Diameter hob;300 mm</attr>
+                <attr lang="fr">Diamètre de la zone de cuisson;300 mm</attr>
+                <attr lang="es">Diámetro zona de cocción;300 mm</attr>
+                <attr lang="nl">Diameter kookpit;300 mm</attr>
+                <attr lang="pl">Średnica pola grzewczego;300 mm</attr>
+                <attr lang="ru">Диаметр конфорки;300 мм</attr>
+                <attr lang="uk">Діаметр конфорки;300 мм</attr>
+                <attr lang="el">Διάμετρος εστίας;300 mm</attr>
+                <attr lang="sv">Diameter platta;300 mm</attr>
+            </value>
+        </Attribut8>
+        <Attribut9>
+            <value>
+                <attr lang="de">Geräte-Anschluss;3 NAC </attr>
+                <attr lang="en">Equipment connection;3 NAC </attr>
+                <attr lang="fr">Raccord d'appareil;3 NAC </attr>
+                <attr lang="es">Conexión del aparato;3 NAC </attr>
+                <attr lang="nl">Apparaataansluiting;3 NAC </attr>
+                <attr lang="pl">Przyłącze urządzenia;3 NAC </attr>
+                <attr lang="ru">Подключение приборов;3 NAC </attr>
+                <attr lang="uk">Підключення приладів;3 NAC </attr>
+                <attr lang="el">Σύνδεση συσκευής;3 NAC </attr>
+                <attr lang="sv">Produktanslutning;3 NAC </attr>
+            </value>
+        </Attribut9>
+        <Attribut10>
+            <value>
+                <attr lang="de">Wichtiger Hinweis;- </attr>
+                <attr lang="en">Important information;- </attr>
+                <attr lang="fr">Remarque importante;- </attr>
+                <attr lang="es">Indicación importante;- </attr>
+                <attr lang="nl">Belangrijke aanwijzing;- </attr>
+                <attr lang="pl">Ważna wskazówka;- </attr>
+                <attr lang="ru">Важная информация;- </attr>
+                <attr lang="uk">Важлива вказівка;- </attr>
+                <attr lang="el">Σημαντική υπόδειξη;- </attr>
+                <attr lang="sv">Viktig information;- </attr>
+            </value>
+        </Attribut10>
+        <Image1>http://www.bartscher.com/de/permalink/image/105343/105343</Image1>
+    </product>
+    </products>
