@@ -15,7 +15,7 @@ namespace gastrosalon
             var config = new MapperConfiguration(cfg =>
             {
                 //Configuring Employee and EmployeeDTO
-                cfg.CreateMap<Product, CsvColumns>()
+                cfg.CreateMap<RMGastroProduct, CsvColumns>()
                 //Provide Mapping Configuration of FullName and Name Property
                 .ForMember(dest => dest.Symbol, act => act.MapFrom(src => src.Itemcode))
 

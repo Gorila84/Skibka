@@ -9,7 +9,7 @@ namespace gastrosalon
 {
     [Serializable]
     [XmlRoot("product")]
-    public class Product
+    public class RMGastroProduct
     {
         [XmlElement("itemcode")]
         public int Itemcode { get; set; }
