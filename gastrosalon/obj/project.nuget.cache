@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "E9UqtYH4l9kYZ6pPYoeXkDhn35yPDUqqZJzVG+9/W1+U4lfTLIhtgzE9Tv1Cnpz8NVb0byAuIThUMfYlPmLLuQ==",
+  "dgSpecHash": "l7cCpuTfX7ZDuj95mwcpx/Vmk3v/guH4PN4IN/2cYjGQjko3MZwiJQzIe22SDCKhGsY4QyblV/V7NndqOBLeyw==",
   "success": true,
   "projectFilePath": "E:\\Skibka\\gastrosalon\\gastrosalon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macie\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\macie\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\macie\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []

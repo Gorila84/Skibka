@@ -7,8 +7,10 @@ using System.Xml.Serialization;
 Console.WriteLine("Hello, World!");
 
 ConnectToFtp connectToFtp = new ConnectToFtp();
-connectToFtp.GetDirectoryListing();
-
+//connectToFtp.GetDirectoryListing();
+//connectToFtp.DownloadStalgastCatalogKMPL202301FileFTP();
+GetDataFromRestoQuality getDataFromRestoQuality = new GetDataFromRestoQuality();
+getDataFromRestoQuality.DeserializeCsvFile();
 //GetDataToGastrosalon _getData = new GetDataToGastrosalon();
 //_getData.Cos();
 //_getData.SerializeRMGastroToCsv("RM GASTRO XML products.xml");
