@@ -150,6 +150,141 @@ namespace gastrosalon
 
         }
 
+        public void SerializeHendiToCSV(string fileName)
+        {
+            using (FileStream fs = new FileStream(fileName, FileMode.Open))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(Offers));
+                var data = (Offers)serializer.Deserialize(fs);
+
+                List<GastroSalonCSV> list = new List<GastroSalonCSV>();
+
+                string name = "";
+                string description = "";
+                string waga = "";
+                string ean = "";
+                string width = "";
+                string height = "";
+                string deep = "";
+                string category1 = "";
+                string category2 = "";
+                string category3 = "";
+                string category4 = "";
+                string image1 = "";
+                string image2 = "";
+                string[] categoryList;
+
+
+                foreach (var item in data.List)
+                {
+                    categoryList = item.Category.Split("::");
+                    description = item.Description.Replace("|", "").Replace("\n", "");
+                    name = item.Name.Replace("|", "");
+
+                    if(categoryList != null)
+                    {
+                        category1 = categoryList[0].ToString();
+                    }
+
+                    if (categoryList.Count() > 1)
+                    {
+                        category2 = categoryList[1].ToString();
+                    }
+                    if (categoryList.Count() > 2)
+                    {
+                        category3 = categoryList[2].ToString();
+                    }
+                    if (categoryList.Count() > 3)
+                    {
+                        category4 = categoryList[3].ToString();
+                    }
+
+
+                    if (item.Ean != null)
+                    {
+                        ean = item.Ean;
+                    }
+
+                    if(item.Width != null)
+                    {
+                        width = item.Width;
+                    }
+
+                    if (item.Deep != null)
+                    {
+                        deep = item.Deep;
+                    }
+                    if (item.Height != null)
+                    {
+                        height = item.Height;
+                    }
+
+                    if(item.Images.Count() > 1)
+                    {
+                        image1 = item.Images[0].ToString();
+                    }
+
+                    if (item.Images.Count() > 2)
+                    {
+                        image2 = item.Images[1].ToString();
+                    }
+
+                    if(item.Id == "6352")
+                    {
+                        string cos = "";
+                    }
+                    GastroSalonCSV csvColumns = new GastroSalonCSV()
+                    {
+                        Symbol = item.Id.ToString(),
+                        f_pojemność = "",
+                        f_kolor = "",
+                        kont_pojemość = "",
+                        kont_kolor = "",
+                        EAN = ean,
+                        Nazwa = name,
+                        Opis = description,
+                        Producent = item.Producer,
+                        Kategoria = category1,
+                        Kategoria1 = category1 + "\\" + category2,
+                        Kategoria2 = category1 + "\\" + category2 + "\\" + category3,
+                        Kategoria3 = category1 + "\\" + category2 + "\\" + category3 + "\\" + category4,
+                        Zdjęcie = item.Image.ToString(),
+                        ZdjęcieDodatkowe = image1,
+                        ZdjęcieDodatkowe1 = image2,
+                        CenaA = item.Price.ToString(),
+                        CenaB = "",
+                        CenaC = "",
+                        CenaD = "",
+                        CenaZ = "",
+                        Stan = "",
+                        Widoczny = "tak",
+                        Koszyk = "",
+                        Wielosztuki = "",
+                        Załącznik = "",
+                        JednostkaMiary = "",
+                        Waga = waga,
+                        f_wysokość = height,
+                        f_długość = deep,
+                        f_szerokość = width,
+                        f_materiał = "",
+                        f_filtr1 = "",
+                        f_filtr2 = "",
+                        f_filtr3 = "",
+                        vat = "",
+                        tagi = ""
+
+                    };
+                    list.Add(csvColumns);
+
+
+
+                }
+
+                string finalPath = @"E:\Hendi";
+               
+                ExportCsv<GastroSalonCSV>(list, finalPath);
+            }
+        }
 
         public void SerializeRMGastroToCsv(string fileName)
         {

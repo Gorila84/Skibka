@@ -54,6 +54,18 @@ namespace gastrosalon
 
         [XmlAttribute("basePrice")]
         public string BasePrice { get; set; }
+        [XmlAttribute("szerokość")]
+        public string Width { get; set; }
+
+        [XmlAttribute("głębokość")]
+        public string Deep { get; set; }
+
+        [XmlAttribute("moc")]
+        public string Power { get; set; }
+
+        [XmlAttribute("wysokość")]
+        public string Height { get; set; }
+
         [XmlElement("attribs")]
         public string Attribs { get; set; }
         [XmlElement("category")]
