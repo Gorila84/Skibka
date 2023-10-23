@@ -1,10 +1,12 @@
-﻿using gastrosalon_net4_8.Helpers;
+﻿using gastrosalon;
+using gastrosalon_net4_8.Helpers;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace gastrosalon_net4_8
 {
@@ -23,7 +25,8 @@ namespace gastrosalon_net4_8
             string xml = File.ReadAllText("RM GASTRO XML products.xml");
             //Deserialize the XML back into an object
             products catalog = XmlConverter<products>.ToObject(xml);
-
+            GetDataToGastrosalon test = new GetDataToGastrosalon();
+            //test.ExportCsv();
         }
     }
 }
