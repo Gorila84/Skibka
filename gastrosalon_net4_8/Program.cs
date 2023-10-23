@@ -24,6 +24,10 @@ namespace gastrosalon_net4_8
             //Deserialize the XML back into an object
             products catalog = XmlConverter<products>.ToObject(xml);
 
+<<<<<<< Updated upstream
        }
+=======
+        }
+>>>>>>> Stashed changes
     }
 }

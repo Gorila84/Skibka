@@ -1,0 +1,8 @@
+E:\repos\Skibka\gastosalon_net\bin\Debug\gastosalon_net.exe.config
+E:\repos\Skibka\gastosalon_net\bin\Debug\gastosalon_net.exe
+E:\repos\Skibka\gastosalon_net\bin\Debug\gastosalon_net.pdb
+E:\repos\Skibka\gastosalon_net\obj\Debug\gastosalon_net.csproj.AssemblyReference.cache
+E:\repos\Skibka\gastosalon_net\obj\Debug\gastosalon_net.csproj.SuggestedBindingRedirects.cache
+E:\repos\Skibka\gastosalon_net\obj\Debug\gastosalon_net.csproj.CoreCompileInputs.cache
+E:\repos\Skibka\gastosalon_net\obj\Debug\gastosalon_net.exe
+E:\repos\Skibka\gastosalon_net\obj\Debug\gastosalon_net.pdb

@@ -1,0 +1,8 @@
+E:\repos\Skibka\gastrosalon_net4_8\bin\Debug\gastrosalon_net4_8.exe.config
+E:\repos\Skibka\gastrosalon_net4_8\bin\Debug\gastrosalon_net4_8.exe
+E:\repos\Skibka\gastrosalon_net4_8\bin\Debug\gastrosalon_net4_8.pdb
+E:\repos\Skibka\gastrosalon_net4_8\obj\Debug\gastrosalon_net4_8.csproj.AssemblyReference.cache
+E:\repos\Skibka\gastrosalon_net4_8\obj\Debug\gastrosalon_net4_8.csproj.SuggestedBindingRedirects.cache
+E:\repos\Skibka\gastrosalon_net4_8\obj\Debug\gastrosalon_net4_8.csproj.CoreCompileInputs.cache
+E:\repos\Skibka\gastrosalon_net4_8\obj\Debug\gastrosalon_net4_8.exe
+E:\repos\Skibka\gastrosalon_net4_8\obj\Debug\gastrosalon_net4_8.pdb
